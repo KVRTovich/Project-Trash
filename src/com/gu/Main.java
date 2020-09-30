@@ -1,9 +1,6 @@
 package com.gu;
 import javax.swing.*;
-import com.gu.base.hascreate;
-
 import static com.gu.base.hascreate.degenerate;
-
 public class Main {
     public static void main(String[] args) throws Exception {
         JFrame f =  new JFrame("Project Trash");
@@ -28,11 +25,10 @@ public class Main {
             }
         });
 
-
         f.add(b);
         f.add(a2);
         f.add(a);
-        f.setSize(320,150);
+        f.setSize(320,200);
         f.setLayout(null);
         f.setVisible(true);
     }
